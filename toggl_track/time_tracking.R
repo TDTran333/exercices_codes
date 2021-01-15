@@ -9,7 +9,7 @@ library(scales)
 
 
 # Load data ---------------------------------------------------------------
-data_dir <- here::here("toggl_track")
+data_dir <- here::here("folder")
 files <- list.files(path = data_dir,  pattern="\\.csv$")
 data <- tibble(filename = files) %>% 
   mutate(file_contents = map(filename, ~ read_csv(file.path(data_dir, .))))
