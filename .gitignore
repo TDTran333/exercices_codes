@@ -1,7 +1,7 @@
 .Rhistory
 .RData
 .Rproj.user
-./crypto/btcusd.csv
-./crypto/ethusd.csv
-./crypto/crypto-markets.csv
+/crypto/btcusd.csv
+/crypto/ethusd.csv
+/crypto/crypto-markets.csv
 
